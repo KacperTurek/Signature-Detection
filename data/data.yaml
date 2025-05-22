@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['signature']
+
+roboflow:
+  workspace: tech-ysdkk
+  project: signature-detection-hlx8j
+  version: 3
+  license: Private
+  url: https://universe.roboflow.com/tech-ysdkk/signature-detection-hlx8j/dataset/3
